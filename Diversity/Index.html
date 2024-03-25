@@ -17,7 +17,10 @@
     <nav class="navbar navbar-expand-sm fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#" style="color: white;">Diversity in IT</a>
-            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <!-- Links -->
             <ul class="navbar-nav">
               
@@ -42,33 +45,6 @@
         </div>
       </div>
     </nav>
-
-
-    <!-- JAVASCRIPT FOR NAVBAR -->
-
-    
-    <script>
-      var navbar = document.querySelector(".navbar")
-    
-    function shrinkpc(){
-        navbar.style.backgroundColor = "#000000";
-    }
-    
-    function growpc(){
-        navbar.style.backgroundColor = "transparent";
-    }
-    
-    window.addEventListener('scroll', function(event) {
-        event.preventDefault(); 
-       if (window.scrollY >= 1) {
-        shrinkpc();
-       } else if (window.scrollY <= 0) {
-        growpc();
-     }
-      });
-    </script>
-
-    
     <!-- HERO BANNER -->
 
     

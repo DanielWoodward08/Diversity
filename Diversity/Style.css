@@ -4,13 +4,14 @@
 body {
     margin: 0;
 }
-.navbar-nav{
-    display: flex;
-    justify-content: end;
-}
 nav{
-    background-color: rgba(0, 0, 0, 0);
-    transition: background-color 1s ease;
+    background-color: rgba(0, 0, 0);
+}
+@media (width<1000px){
+    nav{
+        display: flex !important;
+    }
+    
 }
 .navbar-nav .nav-item .nav-link {
     color: rgb(225, 225, 225);
@@ -42,8 +43,6 @@ nav{
 }
 .row {
     display: flex;
-    gap: 10px;
-    padding-block: 25px;
 }
 .col {
     display: flex;
@@ -78,7 +77,6 @@ img {
 .first-thingy {
 max-width: 1000px;
 margin: auto;
-padding-block: 25px;
 }
 .background1{
     background-color: rgb(241, 241, 241);
@@ -120,5 +118,4 @@ padding-block: 25px;
 .second-thingy {
     max-width: 1000px;
     margin: auto;
-    padding-top: 50px;
     }
