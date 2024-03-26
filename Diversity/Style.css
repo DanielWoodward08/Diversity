@@ -79,11 +79,6 @@ max-width: 1000px;
 margin: auto;
 padding-block: 25px;
 }
-.background1{
-    background-color: rgb(241, 241, 241);
-    width: auto;
-}
-
 .banner1 {
     display: flex;
     height: 325px;
@@ -112,9 +107,6 @@ padding-block: 25px;
     align-items:center;
     justify-content: center;
     color: white;
-}
-.background2{
-    background-color: rgb(201, 201, 201);
 }
 .second-thingy {
     max-width: 1000px;
