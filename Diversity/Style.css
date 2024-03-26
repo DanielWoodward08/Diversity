@@ -3,6 +3,7 @@
 }
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 nav{
     background-color: rgba(0, 0, 0);
@@ -42,7 +43,7 @@ nav{
 .row {
     display: flex;
     gap: 10px;
-    padding-block: 25px;
+    padding: 25px;
 }
 .col {
     display: flex;
@@ -52,13 +53,6 @@ nav{
 }
 .col img {
     width: 100%;
-}
-@media (width<1000px){
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
 }
 h1 {
     font-size: 4.2vw;
@@ -78,6 +72,21 @@ img {
 max-width: 1000px;
 margin: auto;
 padding-block: 25px;
+}
+@media (width<1000px){
+    .first-thingy{
+        max-width: fit-content;
+    }
+    h5{
+        font-size: 5vw;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    p{
+        font-size: 14px;
+    }
 }
 .banner1 {
     display: flex;
@@ -111,5 +120,11 @@ padding-block: 25px;
 .second-thingy {
     max-width: 1000px;
     margin: auto;
-    padding-block: 25px;
+    padding: 25px;
     }
+img{
+    width:100%;
+    overflow: hidden;
+    height: 100%;
+    object-fit: cover;
+}
