@@ -79,7 +79,6 @@ max-width: 1000px;
 margin: auto;
 }
 .background1{
-    background-color: rgb(241, 241, 241);
     width: auto;
 }
 
@@ -113,7 +112,7 @@ margin: auto;
     color: white;
 }
 .background2{
-    background-color: rgb(201, 201, 201);
+    width: auto;
 }
 .second-thingy {
     max-width: 1000px;
