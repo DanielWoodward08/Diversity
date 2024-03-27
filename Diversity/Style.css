@@ -78,7 +78,7 @@ padding-block: 25px;
         max-width: fit-content;
     }
     h5{
-        font-size: 5vw;
+        font-size: 5px;
     }
     .row{
         display: flex;
@@ -86,6 +86,9 @@ padding-block: 25px;
     }
     p{
         font-size: 14px;
+    }
+    .hero-title{
+        font-size: 85px;
     }
 }
 .banner1 {
