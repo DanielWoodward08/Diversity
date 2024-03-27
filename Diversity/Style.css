@@ -133,3 +133,7 @@ img{
 .navbar-toggler-icon{
     background-color: white;
 }
+.navbar-collapse{
+    display: flex;
+    justify-content: end; 
+}
