@@ -7,6 +7,8 @@ body {
 }
 nav{
     background-color: rgba(0, 0, 0);
+    display: flex;
+    justify-content: end;
 }
 .navbar-nav{
     display: flex;
@@ -130,4 +132,11 @@ img{
     overflow: hidden;
     height: 100%;
     object-fit: cover;
+}
+.navbar-toggler-icon{
+    background-color: white;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: end; 
 }
