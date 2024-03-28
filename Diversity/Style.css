@@ -30,7 +30,7 @@ nav{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("diversity.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("diversity.avif");
     text-align: center;
     align-items:center;
     justify-content: center;
@@ -45,7 +45,7 @@ nav{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("hackerman.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("hackerman.avif");
     text-align: center;
     align-items:center;
     justify-content: center;
