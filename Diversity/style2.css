@@ -37,6 +37,34 @@ nav{
     padding: 225px 0px;
     color: white;
 }
+.banner1 {
+    display: flex;
+    height: 325px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image: linear-gradient(rgb(192, 192, 192), rgba(0, 0, 0, 0.55));
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
+.banner2 {
+    display: flex;
+    height: 325px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image: linear-gradient(rgb(192, 192, 192), rgba(0, 0, 0, 0.55));
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
 .banner-woman {
     display: flex;
     height: 325px;
